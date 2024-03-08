@@ -1,0 +1,71 @@
+body{
+  padding-bottom: 1000px;
+  font-family: arial;
+  background-color: rgb(10, 143, 164);
+  
+}
+.p1{
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.p2{
+  color: rgba(255, 208, 0, 0.972);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.p3{
+  color: rgb(26, 231, 26);
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.p4{
+  color: rgb(81, 80, 80);
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.item-input-grid{
+  display: grid;
+  grid-template-columns: 400px 55px;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 15px;
+}
+.input-name,
+.input-add-button{
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.input-add-button{
+  background-color: rgb(60, 71, 81);
+  color: white;
+  justify-content: center;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.result-dispay-grid{
+  display: grid;
+  grid-template-columns: 250px 50px;
+  color: white;
+  font-size: 20px;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+.delete{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1</title> 
+   <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+    <p class="p1">WORK TO-DOS</p>
+    <p class="p2">Enter text into the input field to add items to your list.</p>
+    <p class="p4">Click the "X" to remove the item from your list</p>
+
+    <div class="item-input-grid">
+      <input placeholder="New item..." class="js-item-input input-name" onkeydown="
+        keyDown(event)
+      ">
+
+      <button onclick="
+      itemInputfunc()
+      " class="input-add-button">Add</button>  
+    </div>
+    
+    <div class="js-output result-dispay-grid"></div>
+
+    <script src="styles/style.js"></script>
+  </body>
+</html>
